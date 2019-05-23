@@ -14,7 +14,7 @@ namespace REST_PrintPayment_G3.Controllers
     public class UsersController : ApiController
     {
         //to test :  http://localhost:2347/api/users/rt/ 
-        [Route("quid/{uid}")]
+        [Route("uid/{uid}")]
         [HttpGet]
         public IHttpActionResult GetQuotaByUID(string uid)
         {
